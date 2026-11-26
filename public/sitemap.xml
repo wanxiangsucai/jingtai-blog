@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://demo.example.com/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://demo.example.com/news/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://demo.example.com/tech/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://demo.example.com/life/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://demo.example.com/tools/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://demo.example.com/rengongzhineng.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://demo.example.com/gj.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://demo.example.com/xiegaogongju.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://demo.example.com/jingtaizhan.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://demo.example.com/tech/00000006.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://demo.example.com/tools/00000005.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://demo.example.com/life/00000004.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://demo.example.com/tech/00000003.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://demo.example.com/news/00000002.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://demo.example.com/tech/00000001.html</loc><lastmod>2026-11-26</lastmod></url>
+</urlset>

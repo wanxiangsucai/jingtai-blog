@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>豆包演示站</title>
+<link>https://demo.example.com/</link>
+<description>记录每天的技术与生活</description>
+  <item><title>标签演示：一篇文章挂两个标签</title><link>https://demo.example.com/tech/00000006.html</link><description>这篇文章用来验证标签页生成。</description><pubDate>Thu, 26 Nov 2026 09:38:42 GMT</pubDate></item>
+  <item><title>写稿工具对接的三个参数</title><link>https://demo.example.com/tools/00000005.html</link><description>接口地址填 http://127.0.0.1:8850，密钥填 config.json 的 token，栏目点同步。</description><pubDate>Thu, 26 Nov 2026 09:21:52 GMT</pubDate></item>
+  <item><title>在后台手写一篇：这个站怎么用</title><link>https://demo.example.com/life/00000004.html</link><description>这篇是后台「文章管理」里手写的，不是写稿工具发的。 保存后首页、栏目页、sitemap、rss 会一起重建。</description><pubDate>Thu, 26 Nov 2026 09:21:52 GMT</pubDate></item>
+  <item><title>静态站测试发布（可删）</title><link>https://demo.example.com/tech/00000003.html</link><description>测试发布走一遍。</description><pubDate>Thu, 26 Nov 2026 09:02:16 GMT</pubDate></item>
+  <item><title>从写稿工具直发：第二篇</title><link>https://demo.example.com/news/00000002.html</link><description>这篇是写稿工具的适配器直接 POST 过去的，说明两边已经打通。 发布完自动重建首页、栏目页、sitemap、rss。</description><pubDate>Thu, 26 Nov 2026 09:00:33 GMT</pubDate></item>
+  <item><title>静态站联调：第一篇测试文章</title><link>https://demo.example.com/tech/00000001.html</link><description>这是静态站系统收到的第一篇测试文章，用来验证接口与页面生成。 小标题 提交后应该立刻能在首页看到它。</description><pubDate>Thu, 26 Nov 2026 08:59:57 GMT</pubDate></item>
+</channel></rss>
