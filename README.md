@@ -1,6 +1,6 @@
 # 万象静态博客系统 v1.6
 
-给「批量SEO文章生成（147SEO 复刻版）」配套的静态博客接收端：写稿工具发一篇 → 这边存下来 → 立刻生成整站 HTML。零依赖，只要有 Node 就能跑。
+给「批量SEO文章生成」配套的静态博客接收端：写稿工具发一篇 → 这边存下来 → 立刻生成整站 HTML。零依赖，只要有 Node 就能跑。
 
 URL 结构：栏目页 `域名/news/`，文章页 `域名/news/00000001.html`（按栏目 id 分目录），标签页 `域名/rengongzhineng.html`（标签 id 用拼音），搜索页 `域名/search.html?q=关键词`。
 
@@ -159,16 +159,3 @@ static-site-system/
 - 首页、栏目页、文章页、标签页、搜索页全部走模板，换模板这五种页面一起变
 - 预览：`/preview-news.html`、`/preview-food.html`、`/preview-blog.html`（带 `noindex`，不进 sitemap）
 - 想加第四套：在 `LIST` 和 `MAP` 各加一条，后台自动多一张卡
-
-## 和已有的字典类静态站的关系
-
-`C:\Users\Administrator\WorkBuddy\2026-10-10-07-39-22` 那批站是「JSON 数据 → build.py → 静态页 → Firebase」的数据驱动模式，我只读了它们的结构与开发文档，没有改动任何文件。
-
-这套万象静态博客系统是同一套思路、换成「文章驱动」：`data/articles.json` 相当于那批站的 `data/*.json`，`lib/build.js` 相当于 `build.py`，`public/` 是同样的纯静态产物。所以它生成的页面可以直接跟那批站同机部署、互相挂友链；也可以把它们的 `assets_src/style.css` 换进来，只改 `lib/build.js` 里的 `CSS()`。
-
-## 待办（想继续加就往这加）
-
-- 封面图 / 正文内图片上传（现在只收外链图片）
-- 分页（首页超过 `per_page` 后做 `/page/2.html`）
-- 搜索页翻页 / 按栏目筛选
-- 一键推送搜索引擎（百度/必应 sitemap 提交）
