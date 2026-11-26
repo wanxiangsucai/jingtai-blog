@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /search.html
+Disallow: /assets/search-index.json
+Sitemap: https://demo.example.com/sitemap.xml
