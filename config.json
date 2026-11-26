@@ -1,0 +1,61 @@
+{
+ "site_name": "豆包演示站",
+ "site_desc": "记录每天的技术与生活",
+ "seo_title": "豆包演示站 - 技术与生活记录",
+ "seo_keywords": "静态站,批量写稿,SEO",
+ "seo_desc": "这是一个用批量写稿工具自动发文的静态站，演示网站设置、栏目、文章与友情链接。",
+ "domain": "https://demo.example.com",
+ "analytics": "<!-- 演示统计代码 -->\n<script>window.__demo=1;</script>",
+ "icp": "冀ICP备12345678号-1",
+ "port": 8850,
+ "token": "static-please-change-me",
+ "per_page": 20,
+ "brand": "#1d4ed8",
+ "template": "news",
+ "lanmus": [
+  {
+   "id": "news",
+   "title": "新闻动态"
+  },
+  {
+   "id": "tech",
+   "title": "技术笔记"
+  },
+  {
+   "id": "life",
+   "title": "生活随笔"
+  },
+  {
+   "id": "tools",
+   "title": "工具推荐"
+  }
+ ],
+ "links": [
+  {
+   "title": "豆包工作台",
+   "url": "https://www.doubao.com"
+  },
+  {
+   "title": "Firebase Hosting",
+   "url": "https://firebase.google.com"
+  }
+ ],
+ "tags": [
+  {
+   "id": "rengongzhineng",
+   "title": "人工智能"
+  },
+  {
+   "id": "gj",
+   "title": "工具合集"
+  },
+  {
+   "id": "xiegaogongju",
+   "title": "写稿工具"
+  },
+  {
+   "id": "jingtaizhan",
+   "title": "静态站"
+  }
+ ]
+}
